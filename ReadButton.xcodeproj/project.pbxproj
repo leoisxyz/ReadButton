@@ -14,14 +14,12 @@
 		631948BF0B16A12FABFA5E31 /* DPTCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F39A679A9F2D20265821E58 /* DPTCrypto.swift */; };
 		869C9BDB9BC999301AD46725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAEFD82B28A17AEE12E230D /* Assets.xcassets */; };
 		8E532D4FCE8D01076A21A438 /* ReadButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19665596793BA9E83C6069 /* ReadButtonModel.swift */; };
-		E61704F6C402ED3C1B4A9C4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 59FF7071FFEB9F4DC1981F54 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AAEFD82B28A17AEE12E230D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		455C37454759F8E99C5FFA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4F39A679A9F2D20265821E58 /* DPTCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTCrypto.swift; sourceTree = "<group>"; };
-		59FF7071FFEB9F4DC1981F54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9F19665596793BA9E83C6069 /* ReadButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadButtonModel.swift; sourceTree = "<group>"; };
 		C14308588E8CAFF47F51A28B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D78D3C0C298E700C3E66C2E0 /* ReadButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +65,6 @@
 				455C37454759F8E99C5FFA88 /* Info.plist */,
 				DE735C6C495A1024E0C12E7F /* ReadButtonApp.swift */,
 				9F19665596793BA9E83C6069 /* ReadButtonModel.swift */,
-				59FF7071FFEB9F4DC1981F54 /* README.md */,
 			);
 			path = ReadButton;
 			sourceTree = "<group>";
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				869C9BDB9BC999301AD46725 /* Assets.xcassets in Resources */,
-				E61704F6C402ED3C1B4A9C4F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

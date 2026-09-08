@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B2D03A7D2FD878CED56168 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53FC2D927B8D1D3108271678 /* CryptoSwift */; };
+		2500F18BFEB4E05388EF4922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14308588E8CAFF47F51A28B /* ContentView.swift */; };
+		2EFA6711B2BAAB6C410B5AC1 /* DPTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3781D396F000986BC0C996F /* DPTClient.swift */; };
+		5ED13887EBF5285E328B3E1A /* ReadButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735C6C495A1024E0C12E7F /* ReadButtonApp.swift */; };
+		631948BF0B16A12FABFA5E31 /* DPTCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F39A679A9F2D20265821E58 /* DPTCrypto.swift */; };
+		869C9BDB9BC999301AD46725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAEFD82B28A17AEE12E230D /* Assets.xcassets */; };
+		8E532D4FCE8D01076A21A438 /* ReadButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19665596793BA9E83C6069 /* ReadButtonModel.swift */; };
+		E61704F6C402ED3C1B4A9C4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 59FF7071FFEB9F4DC1981F54 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AAEFD82B28A17AEE12E230D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455C37454759F8E99C5FFA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4F39A679A9F2D20265821E58 /* DPTCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTCrypto.swift; sourceTree = "<group>"; };
+		59FF7071FFEB9F4DC1981F54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F19665596793BA9E83C6069 /* ReadButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadButtonModel.swift; sourceTree = "<group>"; };
+		C14308588E8CAFF47F51A28B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D78D3C0C298E700C3E66C2E0 /* ReadButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE735C6C495A1024E0C12E7F /* ReadButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadButtonApp.swift; sourceTree = "<group>"; };
+		E3781D396F000986BC0C996F /* DPTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0790CE022050C24AE8BE5F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B2D03A7D2FD878CED56168 /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FACCC06DD321D6F8B2CEA12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78D3C0C298E700C3E66C2E0 /* ReadButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E11E0F5803689F90633E43 = {
+			isa = PBXGroup;
+			children = (
+				3E6E78C4A6CC1E09B5B2FF8F /* ReadButton */,
+				0FACCC06DD321D6F8B2CEA12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E6E78C4A6CC1E09B5B2FF8F /* ReadButton */ = {
+			isa = PBXGroup;
+			children = (
+				2AAEFD82B28A17AEE12E230D /* Assets.xcassets */,
+				C14308588E8CAFF47F51A28B /* ContentView.swift */,
+				E3781D396F000986BC0C996F /* DPTClient.swift */,
+				4F39A679A9F2D20265821E58 /* DPTCrypto.swift */,
+				455C37454759F8E99C5FFA88 /* Info.plist */,
+				DE735C6C495A1024E0C12E7F /* ReadButtonApp.swift */,
+				9F19665596793BA9E83C6069 /* ReadButtonModel.swift */,
+				59FF7071FFEB9F4DC1981F54 /* README.md */,
+			);
+			path = ReadButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29AE77B63A51E09A08A963B /* ReadButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0026FD39E19233E762CBB908 /* Build configuration list for PBXNativeTarget "ReadButton" */;
+			buildPhases = (
+				9FF394AB02DEB4DA3D6463C6 /* Sources */,
+				4F71F5CD97E9DC1F9B27130F /* Resources */,
+				0790CE022050C24AE8BE5F49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadButton;
+			packageProductDependencies = (
+				53FC2D927B8D1D3108271678 /* CryptoSwift */,
+			);
+			productName = ReadButton;
+			productReference = D78D3C0C298E700C3E66C2E0 /* ReadButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F94D9748F25B149BABCBF79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B29AE77B63A51E09A08A963B = {
+						DevelopmentTeam = F4VQ3Q5HQV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17073E4F0DE2A2B6A61AEF72 /* Build configuration list for PBXProject "ReadButton" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 34E11E0F5803689F90633E43;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CDA708AE088BA0895CC9C977 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0FACCC06DD321D6F8B2CEA12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29AE77B63A51E09A08A963B /* ReadButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F71F5CD97E9DC1F9B27130F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869C9BDB9BC999301AD46725 /* Assets.xcassets in Resources */,
+				E61704F6C402ED3C1B4A9C4F /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF394AB02DEB4DA3D6463C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2500F18BFEB4E05388EF4922 /* ContentView.swift in Sources */,
+				2EFA6711B2BAAB6C410B5AC1 /* DPTClient.swift in Sources */,
+				631948BF0B16A12FABFA5E31 /* DPTCrypto.swift in Sources */,
+				5ED13887EBF5285E328B3E1A /* ReadButtonApp.swift in Sources */,
+				8E532D4FCE8D01076A21A438 /* ReadButtonModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B4A7CC9762A050896E36FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		33AE43A70A3B0FFE3E5A0F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C07ABC16E00DC1C4566E1999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4VQ3Q5HQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadButton/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ReadButton;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readbutton.watchapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		F0959FA869F9E31AC84ABF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4VQ3Q5HQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadButton/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ReadButton;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readbutton.watchapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0026FD39E19233E762CBB908 /* Build configuration list for PBXNativeTarget "ReadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0959FA869F9E31AC84ABF2D /* Debug */,
+				C07ABC16E00DC1C4566E1999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		17073E4F0DE2A2B6A61AEF72 /* Build configuration list for PBXProject "ReadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AE43A70A3B0FFE3E5A0F7A /* Debug */,
+				1B4A7CC9762A050896E36FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDA708AE088BA0895CC9C977 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53FC2D927B8D1D3108271678 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDA708AE088BA0895CC9C977 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0F94D9748F25B149BABCBF79 /* Project object */;
+}

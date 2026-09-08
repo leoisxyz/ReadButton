@@ -1,0 +1,36 @@
+name: ReadButton
+options:
+  bundleIdPrefix: com.readbutton
+  deploymentTarget:
+    watchOS: "10.0"
+packages:
+  CryptoSwift:
+    url: https://github.com/krzyzanowskim/CryptoSwift.git
+    from: 1.8.4
+targets:
+  ReadButton:
+    type: application
+    platform: watchOS
+    sources: ReadButton
+    dependencies:
+      - package: CryptoSwift
+    settings:
+      base:
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: F4VQ3Q5HQV
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: ReadButton
+        INFOPLIST_KEY_WKWatchOnly: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.readbutton.watchapp
+        SDKROOT: watchos
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: 4
+    info:
+      path: ReadButton/Info.plist
+      properties:
+        NSLocalNetworkUsageDescription: ReadButton 需要连接同一 Wi-Fi 中的 DPT-RP1。
+        NSBonjourServices:
+          - _digitalpaper._tcp
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true

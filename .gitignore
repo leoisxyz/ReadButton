@@ -1,0 +1,7 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+7346d043-f2a3-42c8-a4a3-af1bb3192310.png
